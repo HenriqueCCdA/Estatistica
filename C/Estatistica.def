@@ -1,0 +1,5 @@
+LIBRARY   LIB
+EXPORTS
+   media       @1
+   var         @2
+   std         @3
