@@ -1,7 +1,7 @@
 # Estatística
 
-Repositório criado para guarda alguns códigos de calculos estatisticos. Para fins de estudo pessoal, nehum código aqui visa ser
-efeciente computacionalmente.
+Repositório criado para guarda alguns códigos de calculos estatisticos. O repositório é apenas para fins de estudo pessoal, nenhum código aqui visa ser
+eficiente computacionalmente.
 
 ## Biblioteca em C
 
