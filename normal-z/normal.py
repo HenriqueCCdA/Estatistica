@@ -132,6 +132,7 @@ class Norm(object):
             return 0.5 + p
         else:
             p = Norm.__integral(self.__pdf_z, 0.0, -z)
+
             return 0.5 - p
 
     def cdf_erf(self, x: float) -> float:
@@ -141,7 +142,7 @@ class Norm(object):
         data modificacao: 00/00/0000
         -----------------------------------------------------------
         cdf_erf: calculo da funcao a densidade de probabilidade
-        acumulada pela funcao de erro    
+        acumulada pela funcao de erro
         -----------------------------------------------------------
         Entrada:
         -----------------------------------------------------------
@@ -201,7 +202,7 @@ class Norm(object):
         return z*self.__sigma + self.__mu
 
     @staticmethod
-    def __integral(func, a: float, b: float, n: int = 50000) -> float:
+    def __integral(func, a: float, b: float, n: int = 100000) -> float:
         '''
         ***********************************************************
         data criacao:     30/06/2020
