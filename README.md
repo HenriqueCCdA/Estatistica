@@ -18,3 +18,7 @@ são excutos os testes da implementação da versão 1 e 2 com o histogam do Num
 
 No arquivo correlacção.py há uma implementa do calculo do número de Spearman e Pearson. A implementaçã utiliza apenas o python vanila. No mesmo 
 arquivo também exista uma função que calcula o posto (rank) de um vetor.
+
+## Função normal
+
+No arquivo normal.py há uma implementa de alguns calculos importantes de distribuição normal. Por exemplo, calculo do paramentro z, da pdf e cdf. 
